@@ -3,9 +3,13 @@
 Repository for working on the arm Summer Program Hackathon 2022
 
 Group members:
+
 Sigve Lysne - Sigve.Lysne@arm.com
+
 Danash Akimzhanova - Danash.Akimzhanova@arm.com
+
 Åshild Marie Magnussen Føllesdal - AshildMarieMagnussen.Follesdal@arm.com
+
 
 ## Project #1: Test Vectors for Hybrid Public Key Encryption (HPKE)
 
