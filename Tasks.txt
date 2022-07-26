@@ -1,0 +1,16 @@
+ - Make the basic encoding and decoding work (as a test). The process is descibed here:
+    https://github.com/Mbed-TLS/mbedtls/pull/5078 (Sigve doing this atm.)
+    
+ - Look at the implementation (link above) and compare it with the info in the test vectors 
+   (found here: https://datatracker.ietf.org/doc/html/rfc9180#ref-TestVectors).
+   We want to figure out what variables we need to change in the implementation/what info we need from the test 
+   vectors to make the encoding match the encoding used to generate the values in the test vectors. 
+   
+ - Write down all the relevant info from the test vectors that we need to do the tests. The previous step 
+   has to be done fist.
+   
+ - Make the encoding and decoding algorithm dynamic so that we can just feed any relevant information from
+   the test vectors as varibales when running the script. 
+   
+ - Run multiple test vectors and check that the encoded and decode message matches the information in the test 
+   vectors. 
